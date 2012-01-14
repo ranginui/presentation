@@ -1,0 +1,149 @@
+<presentation>
+  <title>Korerorero</title>
+  <subtitle>The similarites between marae based consenus building and Free Software projects</subtitle>
+  <author>Chris Cormack</author>
+  <email>chrisc@catalyst.net.nz</email>
+  <slide>
+    <title>Who am I?</title>
+    <image>225px-Chrispic.jpg</image>
+    <bullet>Kai Tahu, Kati Mamoe, Waitaha</bullet>
+    <bullet>Born in Kawakawa, grew up in Whanganui, live in Wellington</bullet>
+    <bullet>BSc Compsci, BA Maths and Māori Studies</bullet>
+    <bullet>One of original Koha developers</bullet>
+    <bullet>Release manager for version 3.6.0</bullet>
+  </slide>
+
+  <slide>
+    <title>What is free software?</title>
+    <bullet>The freedom to run the program, for any purpose (freedom 0).</bullet>
+    <bullet>The freedom to study how the program works, and change it to make it do what you wish (freedom 1). Access to the source code is a precondition for this. </bullet>
+    <bullet>The freedom to redistribute copies so you can help your neighbour (freedom 2). </bullet>
+    <bullet>The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this. </bullet>
+  
+    <image>fsf.jpg</image>
+  </slide>
+
+
+  <slide>
+    <title>What is a free software project?</title>
+    <screenshot>kohacon.jpg</screenshot>
+    <bullet>People</bullet>
+  </slide>
+
+  <slide>
+    <title>What is a free software project?</title>
+    <screenshot>kohacon2.jpg</screenshot>
+    <bullet>More people</bullet>
+  </slide>
+
+  <slide>
+    <title>What is a free software project?</title>
+    <screenshot>kohacon3.jpg</screenshot>
+    <bullet>Even more people</bullet>
+  </slide>
+
+
+  <slide>
+    <title>What is a marae?</title>
+    <screenshot>marae.jpg</screenshot>
+    <bullet>He tangata</bullet>
+  </slide>
+
+  <slide>
+    <title>What is a marae?</title>
+    <screenshot>marae2.jpg</screenshot>
+    <bullet>He tangata</bullet>
+  </slide>
+
+  <slide>
+    <title>What is a marae?</title>
+    <screenshot>marae3.jpg</screenshot>
+    <bullet>He tangata</bullet>
+  </slide>
+
+
+  <slide>
+    <title>Similarities</title>
+    <bullet>Mana Tangata</bullet>
+    <bullet>Whakanuia</bullet>
+    <bullet>Kaiakopono</bullet>
+    <bullet>Tama tu, tama ora, tama noho, tama mate</bullet>
+    <bullet>Whawhai</bullet>
+    <bullet>Korerorero</bullet>
+    <bullet>Whakaaro whānui</bullet>
+
+  </slide>
+
+  <slide>
+  <title>Mana tangata</title>
+    <screenshot>mana.jpg</screenshot>
+    <code syntax="txt"><![CDATA[
+      To be a person is not to stand alone, but to be one with
+      one's people, and the deeper the oneness the more we are truly
+      persons and have that mana tangata.
+      
+      To be a free software project member, you have to work with the 
+      other members, and from doing so you gain power.
+    ]]></code>
+  </slide>
+
+  <slide>
+    <title>Whakanuia</title>
+    <bullet>Recognition of contributions</bullet>
+    <screenshot>peanut.jpg</screenshot>
+    <code syntax="text"><![CDATA[
+    http://blog.bigballofwax.co.nz/2008/08/06/write-free-software-and-people-will-send-you-peanut-butter/
+   ]]></code>
+   </slide>
+
+  <slide>
+    <title>Kaiakopono</title>
+    <screenshot>kaiakopono.jpg</screenshot>
+    <bullet>"Not everyone needs to be the Welcome Wagon -- but someone ought to be."</bullet>
+    <code syntax="text"><![CDATA[
+    http://bit.ly/4jYF4k
+    ]]></code>
+  </slide>
+
+  <slide>
+    <title>Tama tu, tama ora, tama noho, tama mate</title>
+    <screenshot></screenshot>
+    <bullet>Everyone is expected to pitch in</bullet>
+    <bullet>Don't wait for someone else to do it for you</bullet>
+  </slide>
+
+  <slide>
+    <title>Whawhai</title>
+    <image>flamewar.jpg</image>
+    <bullet>Disagreements happen</bullet>
+    <bullet>People get angry</bullet>
+  </slide>
+
+  <slide>
+    <title>Korerorero</title>
+    <screenshot>discussion.jpg</screenshot>
+    <bullet>Discussion brings ...</bullet>
+  </slide>
+
+  <slide>
+    <title>Whakaaro whānui</title>
+    <screenshot>consensus.jpg</screenshot>
+    <bullet>Consensus</bullet>
+  </slide>
+
+  <slide>
+    <title>Photos</title>
+    <bullet>Stickers - OsamaK on flickr cc-sa</bullet>
+    <bullet>Kohacon - Kristina Hoeppner cc-sa</bullet>
+    <bullet>Kawiu Marae - Daniel Grobani cc-by</bullet>
+    <bullet>Waitangi day - Joel Wiramu Pauling cc-by-sa</bullet>
+    <bullet>NZ Koha meeting - Shelley Gurney, By permission</bullet>
+    <bullet>Group Hug - CarbonNYC cc-by</bullet>
+  </slide>
+
+  <slide>
+    <title>The End</title>
+    <bullet>Questions?</bullet>
+  </slide>
+
+</presentation>
