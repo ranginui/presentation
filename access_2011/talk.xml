@@ -1,0 +1,137 @@
+<presentation>
+  <title>Tātou Tātou</title>
+  <subtitle>Caring and sharing in a Free and Open source Project</subtitle>
+  <author>Chris Cormack</author>
+  <email>chrisc@catalyst.net.nz</email>
+  <slide>
+    <title>Who am I?</title>
+    <image>225px-Chrispic.jpg</image>
+    <bullet>Kai Tahu, Kati Mamoe, Waitaha</bullet>
+    <bullet>Born in Kawakawa, grew up in Whanganui, live in Wellington</bullet>
+    <bullet>BSc Compsci, BA Maths and Māori Studies</bullet>
+    <bullet>One of the original Koha developers</bullet>
+    <bullet>Release manager for version 3.6.0</bullet>
+    <code>Photo by Nicole Engard - By Permission</code>
+  </slide>
+
+
+  <slide>
+    <title>Disclaimer</title>
+    <bullet>I speak for no one but myself</bullet>
+    <screenshot>disclaimer.jpg</screenshot>
+    <code>
+       Photo by Andrew Steinmetz CC-BY-SA
+    </code>
+  </slide>
+
+  <slide>
+    <title>What the hell is he talking about?</title>
+    <bullet>Free Software</bullet>
+    <bullet>Community</bullet>
+    <bullet>Collaboration</bullet>
+    <bullet>Friendship</bullet>
+  </slide>
+  <slide>
+    <title>What is Free Software?</title>
+    <bullet>The freedom to run the program, for any purpose (freedom 0).</bullet>
+    <bullet>The freedom to study how the program works, and change it to make it do what you wish (freedom 1). Access to the source code is a precondition for this. </bullet>
+    <bullet>The freedom to redistribute copies so you can help your neighbour (freedom 2). </bullet>
+    <bullet>The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this. </bullet>
+
+   <image>fsf.jpg</image>
+      <code>
+    Photo by OsamaK on flickr CC-SA
+    </code>
+
+</slide>
+
+  <slide>
+    <title>Why do I talk about Free Software?</title>
+    <image>freedom.jpg</image>
+    <bullet>Code quality, more features, lower TCO are nice but ...</bullet>
+    <pause />
+    <bullet>Freedom is better</bullet>
+    <pause />
+    <bullet>Open Source puts the emphasis on the development model</bullet>
+    <bullet>Free Software puts the emphasis on Freedom</bullet>
+    <code>Photo by Elemento Humano - CC-BY</code>
+  </slide>
+
+
+  <slide>
+    <title>What does Software Freedom mean for you?</title>
+    <bullet>Ask yourself, who has the software freedom, you or your vendor?</bullet>
+    <bullet>Freedom to check out when you want to</bullet>
+    <bullet>Freedom to weed</bullet>
+    <bullet>Freedom to expand your collection</bullet>
+    <bullet>Freedom to share</bullet>
+    <image>liberty.jpg</image>
+    <code>Photo by Marc Falardea CC-BY</code>
+  </slide>
+
+
+  <slide>
+    <title>What is Koha?</title>
+    <bullet>A pile of code and documentation</bullet>
+    <bullet>A community</bullet>
+    <screenshot>logo.jpg</screenshot>
+  </slide>
+
+  <slide>
+    <title>The community</title>
+    <screenshot>kohacon3.jpg</screenshot>
+    <code>Photo by Kristina Hoeppner - By Permission</code>
+  </slide>
+
+  <slide>
+    <title>Caring and Sharing</title>
+    <bullet>Queensland Floods</bullet>
+    <screenshot>flood.jpg</screenshot>
+    <code>Photo by Robert Hoge - CC-BY</code>
+  </slide>
+
+  <slide>
+    <title>Caring and Sharing</title>
+
+    <bullet>Patches from monks</bullet>
+    <screenshot>monks.jpg</screenshot>
+  </slide>
+
+  <slide>
+    <title>Caring and Sharing</title>
+    <bullet>Africa</bullet>
+    <screenshot>africa.jpg</screenshot>
+  </slide>
+
+  <slide>
+    <title>Some Statistics</title>
+    <bullet>159 committers, from every continent except Antartica</bullet>
+    <bullet>Over 11 years of development</bullet>
+    <bullet>15,891 commits, which averages to 3.7 commits per day (for 11 years)</bullet>
+    <bullet>8,309,371 lines of code (including translations)</bullet>
+  </slide>
+
+  <slide>
+    <title>You did what?</title>
+    <screenshot>fork.jpg</screenshot>
+    <code>Photo by Rob Pongsajapan - CC-BY</code>
+  </slide>
+
+  <slide>
+    <title>Where to from here?</title>
+    <screenshot>where.jpg</screenshot>
+    <code>Photo by Horia Varlan - CC-BY</code>
+  </slide>
+  
+  <slide>
+    <title>Go the Mighty All Blacks!</title>
+    <screenshot>rugby.jpg</screenshot>
+    <code>Photo by Bruno Ideriha - CC-BY-ND</code>
+  </slide>
+
+  <slide>
+    <title>The End</title>
+    <bullet>Questions?</bullet>
+  </slide>
+
+</presentation>
