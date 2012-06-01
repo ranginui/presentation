@@ -1,0 +1,54 @@
+<presentation>
+  <title>Template::Toolkit made my coffee</title>
+  <subtitle>Template::Toolkit lets us make our life easier, let's do that</subtitle>
+  <author>Chris Cormack</author>
+  <email>chrisc@catalyst.net.nz</email>
+  <slide>
+    <title>What am I talking about</title>
+    <bullet>Filters</bullet>
+    <bullet>Plugins</bullet>
+    <bullet>Views</bullet>
+    <bullet>Blocks</bullet>
+  </slide>
+
+  <slide>
+    <title>Filters</title>
+    <code syntax="perl"><![CDATA[
+      [% use KohaDates %]
+      [% somedate | $KohaDates %]
+    ]]></code>
+
+    <code syntax="perl"><![CDATA[
+      use Template::Plugin::Filter;
+      use base qw( Template::Plugin::Filter );
+      use warnings;
+      use strict;
+
+      use C4::Dates;
+
+      sub filter {
+         my ($self,$text) = @_;
+         return "" if not $text;
+         my $date = C4::Dates->new( $text, 'iso' );
+         return $date->output("syspref");
+      }
+    ]]></code>
+  </slide>
+
+  <slide>
+    <title>Plugins</title>
+    <code syntax="perl"><![CDATA[
+      [% USE cache = Cache %]
+      
+      [% cache.inc(
+          'template' => 'doc-head-open.inc',
+          'keys' => {'dochead' => 'dochead'},
+          'ttl' => 360
+          )
+      %]
+    ]]></code>
+    <bullet>Uses Koha::Cache</bullet>
+  </slide>
+
+
+</presentation>

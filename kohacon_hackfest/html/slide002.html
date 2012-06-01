@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Filters</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="top"        href="index.html" />
+  <link rel="previous"   href="slide001.html" />
+  <link rel="next"       href="slide003.html" />
+  <script type="text/javascript" src="space_next.js"></script>
+</head>
+<body id="slide002">
+
+  <h1>Filters&nbsp;</h1>
+
+<div id="content">
+  <pre class="code">[% <span class="synStatement">use </span>KohaDates %]
+[% somedate | <span class="synIdentifier">$KohaDates</span> %]
+</pre>
+  <pre class="code"><span class="synStatement">use </span>Template::Plugin::Filter;
+<span class="synStatement">use base</span> <span class="synConstant">qw( Template::Plugin::Filter )</span>;
+<span class="synStatement">use warnings</span>;
+<span class="synStatement">use strict</span>;
+
+<span class="synStatement">use </span>C4::Dates;
+
+<span class="synStatement">sub </span><span class="synIdentifier">filter </span>{
+   <span class="synStatement">my</span> (<span class="synIdentifier">$self</span>,<span class="synIdentifier">$text</span>) = <span class="synIdentifier">@_</span>;
+   <span class="synStatement">return</span> <span class="synConstant">&quot;&quot;</span> <span class="synStatement">if</span> <span class="synStatement">not</span> <span class="synIdentifier">$text</span>;
+   <span class="synStatement">my</span> <span class="synIdentifier">$date</span> = C4::Dates-&gt;new( <span class="synIdentifier">$text</span>, <span class="synConstant">'iso'</span> );
+   <span class="synStatement">return</span> <span class="synIdentifier">$date-&gt;output</span>(<span class="synConstant">&quot;syspref&quot;</span>);
+}
+</pre>
+</div>
+
+<div id="nav"><a
+  id="nav-prev" title="Previous Slide" href="slide001.html"><img
+  src="images/nav_prev.png" alt="Previous" /></a><a
+  id="nav-toc" title="Table of Contents" href="toc.html"><img
+  src="images/nav_toc.png" alt="Table of Contents" /></a><a
+  id="nav-next" title="Next Slide" href="slide003.html"><img
+  src="images/nav_next.png" alt="Next" /></a></div>
+
+  <ul id="footer">
+  </ul>
+
+</body>
+</html>
