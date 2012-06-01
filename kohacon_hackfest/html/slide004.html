@@ -15,6 +15,28 @@
   <h1>Views&nbsp;</h1>
 
 <div id="content">
+  <pre class="code">[% VIEW marcxml2html notfound=<span class="synConstant">'xmlstring'</span> %]
+    [% BLOCK datafield %]
+        <span class="synIdentifier">&lt;h2&gt;</span>Field [% item.content(view) %]&lt;/h2&gt;
+    [% <span class="synPreProc">END</span> %]
+    [% BLOCK subfield %]
+        <span class="synIdentifier">&lt;h3&gt;</span>Subfield [<span class="synIdentifier">%item</span>.content(view) %]&lt;/h3&gt;
+    [% <span class="synPreProc">END</span> %]
+    [% BLOCK text %]
+        [% item %]
+    [% <span class="synPreProc">END</span> %]
+
+    [% BLOCK xmlstring %]
+        [% item.starttag %]
+        [% item.content(view) %]
+        [% item.endtag %]
+    [% <span class="synPreProc">END</span> %]
+[% <span class="synPreProc">END</span> %]
+</pre>
+  <pre class="code">[% USE doc=XML.XPath(<span class="synConstant">xml</span> =&gt; marcxml);
+   node = doc.findnodes(<span class="synConstant">'/record'</span>);
+   marcxml2html.<span class="synStatement">print</span>(node) %]
+</pre>
 </div>
 
 <div id="nav"><a

@@ -52,6 +52,31 @@
 
   <slide>
     <title>Views</title>
+    <code syntax="perl"><![CDATA[
+      [% VIEW marcxml2html notfound='xmlstring' %]
+          [% BLOCK datafield %]
+              <h2>Field [% item.content(view) %]</h2>
+          [% END %]
+          [% BLOCK subfield %]
+              <h3>Subfield [%item.content(view) %]</h3>
+          [% END %]
+          [% BLOCK text %]
+              [% item %]
+          [% END %]
+
+          [% BLOCK xmlstring %]
+              [% item.starttag %]
+              [% item.content(view) %]
+              [% item.endtag %]
+          [% END %]
+      [% END %]
+    ]]></code>
+
+    <code syntax="perl"><![CDATA[
+      [% USE doc=XML.XPath(xml => marcxml);
+         node = doc.findnodes('/record');
+         marcxml2html.print(node) %]
+    ]]></code>
   </slide>
 
   <slide>
