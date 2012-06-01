@@ -3,23 +3,27 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>Exception handling</title>
+  <title>Views</title>
   <link rel="stylesheet" href="style.css" type="text/css" />
   <link rel="top"        href="index.html" />
   <link rel="previous"   href="slide004.html" />
-  <link rel="next"       href="index.html" />
+  <link rel="next"       href="slide006.html" />
   <script type="text/javascript" src="space_next.js"></script>
 </head>
 <body id="slide005">
 
-  <h1>Exception handling&nbsp;</h1>
+  <h1>Views&nbsp;</h1>
 
 <div id="content">
-  <pre class="code">[% TRY %]
-    [% INCLUDE <span class="synIdentifier">$user</span>.header %]
-[% CATCH file %]
-    [% INCLUDE header %]
-[% <span class="synPreProc">END</span> %]
+  <pre class="code">&lt;record
+<span class="synStatement">    xmlns:</span>xsi=<span class="synConstant">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span>
+<span class="synStatement">    xsi:</span>schemaLocation=<span class="synConstant">&quot;http://www.loc.gov/MARC21/slim </span>
+<span class="synConstant">    http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd&quot;</span>
+    xmlns=<span class="synConstant">&quot;http://www.loc.gov/MARC21/slim&quot;</span>&gt;
+<span class="synIdentifier">&lt;leader&gt;</span>00906pam a2200241 a <span class="synConstant">4500</span>&lt;/leader&gt;
+&lt;datafield tag=<span class="synConstant">&quot;024&quot;</span> ind1=<span class="synConstant">&quot; &quot;</span> ind2=<span class="synConstant">&quot; &quot;</span>&gt;
+    &lt;subfield code=<span class="synConstant">&quot;a&quot;</span>&gt;D7&lt;/subfield&gt;
+&lt;/datafield&gt;
 </pre>
 </div>
 
@@ -28,7 +32,7 @@
   src="images/nav_prev.png" alt="Previous" /></a><a
   id="nav-toc" title="Table of Contents" href="toc.html"><img
   src="images/nav_toc.png" alt="Table of Contents" /></a><a
-  id="nav-next" title="Next Slide" href="index.html"><img
+  id="nav-next" title="Next Slide" href="slide006.html"><img
   src="images/nav_next.png" alt="Next" /></a></div>
 
   <ul id="footer">
