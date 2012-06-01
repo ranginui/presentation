@@ -50,5 +50,13 @@
     <bullet>Uses Koha::Cache</bullet>
   </slide>
 
+  <slide>
+    <title>Views</title>
+  </slide>
+
+  <slide>
+    <title>Blocks</title>
+  </slide>
+
 
 </presentation>
