@@ -8,7 +8,7 @@
     <bullet>Filters</bullet>
     <bullet>Plugins</bullet>
     <bullet>Views</bullet>
-    <bullet>Blocks</bullet>
+    <bullet>Exception handling</bullet>
   </slide>
 
   <slide>
@@ -80,7 +80,14 @@
   </slide>
 
   <slide>
-    <title>Blocks</title>
+    <title>Exception handling</title>
+    <code syntax="perl"><![CDATA[
+      [% TRY %]
+          [% INCLUDE $user.header %]
+      [% CATCH file %]
+          [% INCLUDE header %]
+      [% END %]
+    ]]></code>
   </slide>
 
 
