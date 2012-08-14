@@ -1,7 +1,7 @@
 <presentation>
   <title>You mean we could share?</title>
 
-  <subtitle>But wait.. wouldn't that be efficient and useful?</subtitle>
+  <subtitle>Yes but how?</subtitle>
   <author>Chris Cormack</author>
   <email>chrisc@catalyst.net.nz</email>
   <slide>
@@ -10,6 +10,29 @@
     <bullet>Independent branches</bullet>
     <bullet>Branches</bullet>
     <bullet>A mixture of any of the above</bullet>
+  </slide>
+
+  <slide>
+    <title>Federated search</title>
+
+    <screenshot>Federated.png</screenshot>
+  </slide>
+
+  <slide>
+    <title>Independent branches</title>
+
+    <screenshot>Indepen.png</screenshot>
+  </slide>
+
+  <slide>
+    <title>Branches</title>
+    <screenshot>Branches.png</screenshot>
+  </slide>
+
+  <slide>
+    <title>Mixture</title>
+    <bullet>Stand alone Koha</bullet>
+
   </slide>
 
 
