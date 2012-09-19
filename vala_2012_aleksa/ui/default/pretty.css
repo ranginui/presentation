@@ -29,12 +29,33 @@ sup {font-size: smaller; line-height: 1px;}
 .slide ul ul li {margin: .2em; font-size: 85%; list-style: square;}
 .slide img.leader {display: block; margin: 0 auto;}
 
-div#header, div#footer {background: #6BCB0B; color: black;
-  font-family: Verdana, Helvetica, sans-serif;}
-div#header {background: #6BCB0B no-repeat;
-  line-height: 1px;}
-div#footer {font-size: 0.5em; background: #6BCB0B url(images/littler-logo.png) 10px 30px no-repeat; font-weight: bold; padding: 1em 0;}
+div#header, {	background: #519407; /* Old browsers */
+				background: -moz-linear-gradient(top, #519407 0%, #80ba41 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#519407), color-stop(100%,#80ba41)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #519407 0%,#80ba41 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #519407 0%,#80ba41 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #519407 0%,#80ba41 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #519407 0%,#80ba41 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#519407', endColorstr='#80ba41',GradientType=0 ); /* IE6-9 */ 
+				color: white;
+  				font-family: Verdana, Helvetica, sans-serif;
+  			}
+
+div#footer {	background: #81BB41; 
+				color: white;
+  				font-family: Verdana, Helvetica, sans-serif;
+  			}
+
+div#header {
+	background-image: url(images/top_gradient.png);
+	background-repeat:repeat-x;
+	background: #81BB41;
+	}  
+
+div#footer {font-size: 0.5em; background: #81BB41 url(images/littler-logo.png) 10px 20px no-repeat; font-weight: bold; padding: 1em 0;}
+
 #footer h1, #footer h2 {display: block; padding: 0 1em;}
+
 #footer h2 {font-style: italic;}
 
 div.long {font-size: 0.75em;}
@@ -54,12 +75,12 @@ html>body div#controls {position: fixed; padding: 0 0 1em 0;
 div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
   margin: 0; padding: 0;}
 #controls #navLinks a {padding: 0; margin: 0 0.5em; 
-  background: #6BCB0B; border: none; color: black; 
+  background: #81BB41; border: none; color: black; 
   cursor: pointer;}
 #controls #navList {height: 1em;}
 #controls #navList #jumplist {position: absolute; bottom: 0; right: 0; background: #DDD; color: #227;}
 
-#currentSlide {text-align: center; font-size: 0.5em; color: #6BCB0B;}
+#currentSlide {text-align: center; font-size: 0.5em; color: #81BB41;}
 
 #slide0 {padding-top: 3.5em; font-size: 90%;}
 #slide0 h1 {position: static; margin: 1em 0 0; padding: 0;
@@ -84,28 +105,59 @@ img.incremental {visibility: hidden;}
 
 .slide { vertical-align: middle;}
 
+.movieslide {
+	background: black;
+	vertical-align: middle;
+	}
+
 .centered {
 	text-align: center;
-	margin-top: 0px;
+	margin-top: 40px;
 	margin-bottom: 0px;
 	padding: 0px;
 	vertical-align: middle;
 }
 
+.logo {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.video {
+	text-align: center;
+	margin-top: 30px;
+	vertical-align: middle;
+}
+
+.screenshot {
+	text-align: center;
+	margin-top: -50px;
+	margin-bottom: 200px;
+	vertical-align: middle;
+}
+
+}
+
 .largeFont {
+	font-family: Arial, sans-serif;
 	font-size: 12px;
 }
 
 .hyperlink {
-	font-size: 70px;
+	font-size: 90px;
+	font-family: Arial, sans-serif;
 	font-style: italic;
-	text-decoration: underline;
+
 }
 
 .smallHyperlink {
 	font-size: 12px;
-	font-style: italic;
-	text-decoration: underline;
+	font-family: Arial, sans-serif;
+	font-style: normal
+	font-weight: bold
 }
 
 .myPara {
@@ -116,13 +168,13 @@ img.incremental {visibility: hidden;}
 
 .biggest {
 	font-size: 75px;
-	font-family: Arial;
+	font-family: Arial, sans-serif;
 	text-align: center;
 	vertical-align: middle;
 }
 
 .imageText {	
-	font-size: 35px;
+	font-size: 40px;
 	font-family: Arial;
 	text-align: center;
 	vertical-align: middle;
