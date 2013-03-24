@@ -18,6 +18,7 @@
   /* W3C */
   background-attachment: fixed;
   background-image:url('images/background1.jpg');
+  background-size:100% 100%;
   vertical-align:middle;
 }
 .deck-container > .slide {
