@@ -58,6 +58,7 @@
   border-color: #cde;
   background: #fff;
   position: relative;
+  top:150px;
   z-index: auto;
   /* http://nicolasgallagher.com/css-drop-shadows-without-images/ */
 }
