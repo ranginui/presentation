@@ -16,6 +16,13 @@
   font-family: sans-serif;
   color: #888;
 }
+
+.csstransforms .deck-container h1 {
+    position: absolute;
+    top: 25%;
+    transform: none;
+}
+
 .js .deck-container .theme-menu {
   display: block;
 }
