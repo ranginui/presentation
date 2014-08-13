@@ -1,3 +1,11 @@
+.deck-container {
+background-image:url('images/logo_bottom.png');
+    background-repeat:no-repeat;
+    background-size:1980px;
+    background-position: bottom;
+    vertical-align:middle;
+}
+
 .deck-container .theme-menu {
   display: none;
   position: fixed;
