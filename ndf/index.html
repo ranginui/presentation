@@ -29,6 +29,10 @@
 	<link rel="stylesheet" href="pres.css">
 	
 	<script src="../deck.js/modernizr.custom.js"></script>
+	<script src="build/jquery.js"></script>
+	<script src="build/mediaelement-and-player.min.js"></script>
+
+	<link rel="stylesheet" href="build/mediaelementplayer.css" />
 </head>
 
 <body>
@@ -62,11 +66,13 @@ Sourced: gifbin.com
 </section>
 
 <section class="slide" id="what">
- <video width="1920"  controls>
+<!-- <video width="1920"  controls>
    <source src="movies/stats.mp4" type="video/mp4">
-   <source src="movies/stats.ogg" type="video/ogg">
+  <source src="movies/stats.ogg" type="video/ogg">
        Your browser does not support the video tag.
-       </video> 
+
+</video> -->
+<video src="movies/stats.mp4" width="1920"></video>
 </section>
 
 
@@ -105,6 +111,11 @@ Sourced: gifbin.com
 
 <!-- Specific to this page -->
 <script src="pres.js"></script>
+<script>
+// using jQuery
+$('video,audio').mediaelementplayer(/* Options */);
+</script>
+
 
 </body>
 </html>
