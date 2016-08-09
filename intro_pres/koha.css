@@ -44,7 +44,7 @@
   color: #0b7495;
   border-bottom: 0;
   position:relative;
-  top:100px;
+  top:10px;
 }
 .cssreflections .deck-container .slide h2 {
   line-height: 1;
@@ -230,5 +230,5 @@
         display: block;
             margin: 0 auto;
             position: relative;
-             top: 100px;
+             top: 10px;
 }
