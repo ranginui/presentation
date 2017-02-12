@@ -1,0 +1,21 @@
+Library Systems Platform
+
+What is it
+  - A marketing term like Cloud
+  - Like cloud it can mean everything, and nothing
+  - Started by Ex Libris to sell their ALMA system
+  - We need to define what we want it to mean, during our discussions
+     - A collection of systems that can interoperate, using standards and/or defined API
+
+What is FOLIO
+  - Aimed more at academic libraries
+  - Following the idea of a service bus, a way for systems to speak to each other
+    - Translator
+
+Is Koha a platform
+  - Yes 
+  - And no
+  - It can be
+     - SIP, NCIP, ILS-DI, SRU/SW, Z39.50
+     - New RESTful API
+
