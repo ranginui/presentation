@@ -19,3 +19,22 @@ Is Koha a platform
      - SIP, NCIP, ILS-DI, SRU/SW, Z39.50
      - New RESTful API
 
+What things might we connect to a platform
+ - ILS
+ - ERMS
+ - Financial System
+ - Ticketing/Request System
+ - Student Management system
+ - Learning Management system
+ - eportfolio
+ - IDP
+
+What needs to be done
+ - Documenting API 
+ - Pushing for standards
+ - Upstreaming changes
+
+What is being done
+ - Biblibre working on Koha + Coral
+ - Moodle + Koha
+ 
