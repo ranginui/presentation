@@ -1,0 +1,22 @@
+Alliance Uni
+2012
+Have code in Koha
+3.22.0  (need upgrade)
+
+
+Central Uni Kerala
+2009
+No opac link
+
+Uni Mysore
+2010
+16.05.03 
+Running Koha on Windows? How is 16.05 working on windows?
+
+Gulbarga Uni
+2014
+No info about patch
+
+
+
+
