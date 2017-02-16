@@ -1,0 +1,5 @@
+Best practices for deploy presentation
+Get working koha on laptop
+show some reports
+dashboard
+etc
