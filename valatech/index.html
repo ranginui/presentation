@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Securing your LMS: Slides</title>
+		<meta name="description" content="Slides">
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-white-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="d5de03f895c800c659acab22f5e13489"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 238px; height: auto;" data-block-id="30c15ed5eb664b80aadc93079f1b5192"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;"><h1>Title Text</h1></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 960px; height: 636px; left: 0px; top: 27px;" data-block-id="dc9e664a378f6869894c7eb17a360ab4"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1359" data-natural-height="900" data-lazy-loaded="" data-src="securing-your-lms/067500b0c830c70a609e2499ecfa4726.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 77px; top: 264px;" data-block-id="8775c15e1f914cb3716f22fee651f98a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p>Securing your Library Management System</p>
+
+<p>Chris Cormack</p>
+</div></div></section><section data-id="5b6abadffb1960a7f7e91da9f335f47a"><div class="sl-block" data-block-type="text" style="width: 806px; left: 0px; top: 0px; height: auto;" data-block-id="76e72d94e69728cc87faf3284213f062"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>Who am I?</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 0px; top: 74px; height: auto;" data-block-id="fecafa855aaff298fcd604a8beec4a52"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li>Kāi Tahu, Kāti Mamoe, Waitaha</li>
+	<li>BSc Compsci, BA Maths and Māori Studies</li>
+	<li>One of the original Koha developers</li>
+	<li>Working at Catalyst IT</li>
+	<li>Make my kids dress like me</li>
+	<li>@ranginui</li>
+	<li>chrisc@catalyst.net.nz</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="6a0ca76364c726acbb340a8feae6a333"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 360px; height: 318px; left: 560px; top: 280px;" data-block-id="bba700c6eecdbc28407b8da73ee89cd0"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="453" data-natural-height="400" data-lazy-loaded="" data-src="securing-your-lms/3aa17f02de7341699efb81eaad33b6bc.jpg"></div></div></section><section data-id="9eb1c8af004428f551760766fe574573"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 39px; height: auto;" data-block-id="621a1d45f6ee3aaaa7a03e56ef03c0e0"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Know your attack surface</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: -48px; top: 113px; height: auto;" data-block-id="274c0b1bc5f1225f7471903c50bee31e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>Plain text passwords</li>
+	<li>Dataleak</li>
+	<li>Website</li>
+	<li>Selfcheck</li>
+	<li>3rd party content vendor</li>
+	<li>Social engineering</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="f5158ad1eac8d605a373659d0bf5e0b8"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 417px; height: 278px; left: 521px; top: 320px;" data-block-id="938278aa9ea9d23080e3c82814306697"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="640" data-natural-height="427" data-lazy-loaded="" data-src="securing-your-lms/2bcfa08c1582d1ade9a17cbe8e2adf60.jpg"></div></div></section><section data-id="64aaed2d761d595783c09e0cfbfdd6bb"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="04a43d81b700d7e6adb2ad7b26deb768"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 39px; height: auto;" data-block-id="c384c954528e32dc447373a45ea7b7f7"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Plain text passwords</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 230px;" data-block-id="d7f40997473fa0aa247ac83c0e03b17d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<blockquote>
+<p>If you can view yours, or any of your users passwords, you should never ever ever use that system again</p>
+</blockquote>
+
+<p>- Chris Cormack 2017</p>
+</div></div></section><section data-id="8b96ad83ded2e396a465c85d543abe3c"><div class="sl-block" data-block-type="image" style="width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="8633a52fbdc302b7ae8ee4d1c203c6fd"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 39px; height: auto;" data-block-id="8a1832fbbec7c5d776902e62ad648260"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Data leak</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 20px; top: 140px;" data-block-id="1ea1535f5b63dbe151f259bb6c7083cc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<ul>
+	<li>Don't collect what you don't need</li>
+	<li>Don't keep what you no longer need</li>
+	<li>Anonymise where possible</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 360px; top: 560px;" data-block-id="3a15c32f9a9549eee40cbe8a4b3d463b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><em><span style="font-size:0.9em">CC-BY Selka</span></em></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 480px; height: 269px; left: 400px; top: 273px;" data-block-id="43ea411486c62a258b055002bededfbb"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="640" data-natural-height="359" data-lazy-loaded="" data-src="securing-your-lms/84a86c6484a29c2bc3aad8d99a569134.jpg"></div></div></section><section data-id="4c32fd19da1491a18b722f336a1fa43e"><div class="sl-block" data-block-type="image" style="width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="3c240bfe9a487eede5ee74e62a296333"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 39px; height: auto;" data-block-id="da2e507f0bb3fda36b5192c89e16a37e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Website(s)</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: -79px; top: 169px;" data-block-id="01ead458cd4cc4b4b1220c28e1e1b703"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<ul>
+	<li>OWASP top 10</li>
+	<li>https (tls 1.2)</li>
+	<li>XSS</li>
+	<li>SQLi</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 351px; top: 521px;" data-block-id="49b2fc92049ea3d4a9ce0bc184bc3872"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<ul>
+	<li>ssllabs</li>
+	<li>letsencrypt</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 360px; height: 270px; left: 441px; top: 205px;" data-block-id="00cb04c7cd241a33e52f9a92f69976e6"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="720" data-natural-height="540" data-lazy-loaded="" data-src="securing-your-lms/382e62fc2fb1a5873a952fd9e4271b2e.gif"></div></div></section><section data-id="786c72123f0a90f1e6aa63670a157fa5"><div class="sl-block" data-block-type="image" style="width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="2e48a4b7e8e20bf5a9337a8586925f33"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 39px; height: auto;" data-block-id="806c3deb5299cb05c3647cee6dd85d1c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Selfcheck</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 20px; top: 197px;" data-block-id="8d949f8662e6389f3bb801ed9dde9dda"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<p style="text-align: left;">SIP2 ... it's not cool</p>
+
+<p style="text-align: left;">NCIP ... it's not cool still, but bloated</p>
+
+<p style="text-align: left;"> </p>
+
+<p style="text-align: left;">Mitigations</p>
+
+<p style="text-align: left;">- stunnel</p>
+
+<p style="text-align: left;">- ssh tunnel</p>
+
+<p style="text-align: left;">- restful api over tls</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 360px; top: 600px;" data-block-id="da71032bb28422594e0a0f0f170af282"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><em>cc-by-sa Jeffrey Beall</em></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 276px; height: 300px; left: 590px; top: 230px;" data-block-id="7809762ed315d6e561ecc017a187b6e7"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="589" data-natural-height="640" data-lazy-loaded="" data-src="securing-your-lms/20f177935c79c9948784173f6f756256.jpg"></div></div></section><section class="stack" data-id="7264e854b7778b5086bef370f0faefba"><section data-id="a03ad5985430355afc30973c8bd9e159"><div class="sl-block" data-block-type="image" style="width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="26285f4d45e984c64289ccb4d60afc69"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 39px; height: auto;" data-block-id="5c3db823945e31fe415fdd7ae7c4dd29"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>Let's try some stuff</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 40px; top: 237px;" data-block-id="c2d2880ce077dc708ffa61726de0a2d1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>SSID: Anatokai</p>
+
+<p>Pass: SuperSecure</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 318px; height: 318px; left: 523px; top: 270px;" data-block-id="f0d9f8b6b51b25ef7f2aba5f7c4d1ab2"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="300" data-natural-height="300" data-lazy-loaded="" data-src="securing-your-lms/f5ae639b325b0d9d05c6eac6d741478d.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 77px; top: 140px;" data-block-id="4298bbdbbb159f9fccbe2a9f62787f30"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p>https://pastebin.com/ujfn3YET</p>
+</div></div></section><section data-id="635731c295814249c4b0d99ddc7c56a4"><div class="sl-block" data-block-type="image" style="width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="89bb7ac7f802830130ae80117b735796"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 39px; height: auto;" data-block-id="ca44b864f07be9f9aa89af972c3f1cc5"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Finding the password</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 160px;" data-block-id="517cc748063d101ee92bd1940f857ac8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<ol>
+	<li>Start wireshark (as root/administrator)</li>
+	<li>Capture on wlan0 (or equivalent)</li>
+	<li>Edit-&gt;Find Packets</li>
+	<li>Packet Bytes, String, search for |CP</li>
+</ol>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 360px; height: 203px; left: 520px; top: 389px;" data-block-id="d2b5f931fc4135d89f55841c4c1d4ac1"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="533" data-natural-height="300" data-lazy-loaded="" data-src="securing-your-lms/51bf413a05c0af7f0af0380e8a5dec09.gif"></div></div></section><section data-id="d8aae2ebdd7d77e122c26f6f632d396b"><div class="sl-block" data-block-type="image" style="width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="9858b8ef030151145852f21232c63f08"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 39px; height: auto;" data-block-id="fc8f186ce73b8151bb21eda40c9f8b25"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Mischief</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 21px; top: 168px;" data-block-id="f5ee768b08db75de4701ea94347a2320"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p style="text-align:left">telnet 6001</p>
+
+<p style="text-align:left"> </p>
+
+<p style="text-align:left">9300CNterm1|COterm1|CPcpl|</p>
+
+<p style="text-align:left">2300120170714    004452AOcpl|AAchrisc|ACterm1|AD|</p>
+
+<p style="text-align:left">3720170714    0039390100USDBV100|AO|AAchrisc|ACterm1|</p>
+
+<p style="text-align:left">2300120170714    004452AOcpl|AAchrisc|ACterm1|AD|</p>
+
+<p style="text-align:left"> </p>
+</div></div></section></section><section data-id="6a951597a101102744c316f3cdd3cd2c"><div class="sl-block" data-block-type="image" style="width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="bf808b221fc4b90fc592ffe77bd1a5b2"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 39px; height: auto;" data-block-id="3ea929817cdf2c4d6a3363d67cc59156"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>3rd party systems</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 179px; top: 202px;" data-block-id="4df74d61a49f67f1d3580a62ad31a1c5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<p>Often want to use SIP2</p>
+
+<p>Sometimes store stuff</p>
+
+<p>How do we know?</p>
+
+<p> </p>
+
+<ul>
+</ul>
+</div></div></section><section data-id="66937c4ee91c7bb64cf07b4845aa6bd2"><div class="sl-block" data-block-type="image" style="width: 960px; height: 46px; left: 0px; top: 654px;" data-block-id="ff9c88e5dac4223bfab7e44bb524de2f"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1600" data-natural-height="76" data-lazy-loaded="" data-src="securing-your-lms/b09a9eaf941d57328c0b98e61a719a32.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 39px; height: auto;" data-block-id="d5a5c14fbe4f2a56c5fa2cc4b252db9f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Social Engineering</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 179px; top: 202px;" data-block-id="e956e8121b4e2867cce6d58c12bf1949"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<p>You just spent a bunch of time attached to</p>
+
+<p>my wifi AP, because I asked you to</p>
+
+<p> </p>
+
+<ul>
+</ul>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1039882,"slug":"securing-your-lms","title":"Securing your LMS","description":"","width":960,"height":700,"visibility":"all","published_at":"2017-07-14T04:43:36.994Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/122d876463fa59421cf09e5bee590364/thumb.jpg?652636536","view_count":340,"user":{"id":65784,"username":"ranginui","name":"Chris Cormack","description":"","thumbnail_url":"https://www.gravatar.com/avatar/9ef2326522095c57cc6a3fc32a51cc2b?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":true,"pro":true,"lite":false,"team_id":null,"settings":{"id":24179,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1500007463205,"font_typekit":null,"font_google":null,"notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/head.min.js"></script>
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+
+				controls: true,
+				progress: true,
+				history: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+
+				autoSlide: 0 || 0,
+				autoSlideStoppable: true,
+
+				center: false,
+				loop: false,
+				rtl: false,
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
